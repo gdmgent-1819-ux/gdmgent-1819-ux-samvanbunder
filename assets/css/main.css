@@ -1,5 +1,6 @@
 @import url('variables.css');
 @import url('footer.css');
+@import url('cards.css')
 
 body{
     padding: 0px;
