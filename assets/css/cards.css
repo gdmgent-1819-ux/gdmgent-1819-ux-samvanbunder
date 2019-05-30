@@ -101,13 +101,13 @@
   float:right;
   position: absolute;
   right: 7%;
-  top: 120%;
+  top: 130%;
   margin-top: 0%;
   font-family: var(--f-ux-primary);
   border-radius: 10px 10px 10px 10px;
   background-color:var(--c-quinary);
   width: 40%;
-  height: 71%;
+  height: 75vh;
 
 }
 
@@ -119,7 +119,7 @@
   margin-left: 50px;
   object-fit: cover;
   width: 50%;
-  height: 70vh;
+  height: 75vh;
   border-radius: 0px 10px 10px 0px;
 
 }
@@ -127,8 +127,8 @@
 .reserveernu{
   color: var(--c-senary);
   font-size: 35px;
-  margin-left: 0px;
-  margin-right: 12%;
+  margin-left: 4%;
+  margin-right: 10%;
 }
 
 .buttons{
@@ -166,10 +166,10 @@
 .conceptcard{
   background-color:var(--c-ux-lightblue);
   width: 40%;
-  height: 10%;
+  height: 30%;
   display: flex;
   flex-direction: row;
-  margin: 50px 0px 50px 80px;
+  margin: 50px 0px 30px 150px;
   border-radius: 10px 10px 10px 10px;
 }
 
@@ -200,6 +200,7 @@
 .conceptimage{
   object-fit: cover;
   width: 30%;
-  height: 30%;
+  height: 100%;
   border-radius: 5px 5px 5px 5px;
+  margin: 0px 0px 100px 0px;
 }

@@ -52,7 +52,7 @@ body{
 }
 
 #theplacetoescape{
-    margin: 22% 10px 0px 0px;
+    margin: 18% 10px 0px 0px;
     background-color: var(--c-tertiary);
     color: var(--c-primary);
     font-family: var(--f-ux-secondary);
@@ -129,7 +129,7 @@ i{
 
 /*QUOTE*/
 .quote{
-    margin: 30px 100px 0px 0px;
+    margin: 10px 100px 100px 0px;
     width: 60vw;
     float: right;
     text-align: right;
@@ -161,7 +161,7 @@ i{
 }
 
 .listend > li{
-    margin: 20px 0px;
+    margin: 20px 20px;
 }
 
 .checks {
@@ -171,7 +171,7 @@ i{
     color: var(--c-senary);
     font-size: 25px;
     position: absolute;
-    top: 122%;
+    top: 130%;
 }
 
 .checks > i{
