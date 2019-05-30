@@ -1,0 +1,46 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerlist{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    color: var(--c-senary);
+    font-family: var(--f-ux-primary);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.footerlist > li {
+    margin: 3% 13% 0% ;
+}
+
+.loginaccount{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 4%;
+
+}
+#login{
+    color: var(--c-senary);
+    font-family: var(--f-ux-primary);
+    font-size: 25px;
+    font-weight: 600;
+    width: 60%;
+    margin-bottom: 0;
+
+}
+
+#account{
+    color: var(--c-senary);
+    font-family: var(--f-ux-primary);
+    font-size: 15px;
+    font-weight: 200;
+
+}
+

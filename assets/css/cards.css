@@ -1,0 +1,205 @@
+/*Images BASIC*/
+
+.images{
+    opacity: 0.8;
+    border-radius: 15px;
+}
+.cards{
+    display:flex;
+    justify-content: center;
+}  
+
+.images:hover {
+    box-shadow: 10px 10px 8px #888888;
+  }
+  
+.containercards {
+    position: relative;
+    margin: 25px 40px 0px;
+    width: 40vw;
+    height: 50vh;
+    font-family: var(--f-ux-primary);
+  }
+  
+/* Bottom left text */
+  .bottom-left {
+    text-align: left;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 30px;
+    color: var(--c-septenary);
+    background-color: rgba(139, 74, 74, 0);
+    font-weight: 900;
+  }
+  
+/* Top left text */
+  .top-left {
+    text-align: left;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 45px;
+    font-weight: 900;
+    color: var(--c-septenary);
+    background-color: rgba(139, 74, 74, 0)
+  }
+
+  .top-left2 {
+    text-align: left;
+    position: absolute;
+    top: 60px;
+    left: 16px;
+    font-size: 45px;
+    font-weight: 900;
+    color: var(--c-septenary);
+    background-color: rgba(139, 74, 74, 0)
+  }
+  
+/* Top right text */
+  .top-right {
+    text-align: right;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--c-septenary);
+    background-color: rgba(139, 74, 74, 0)
+  }
+  
+/* Centered text */
+  .centered {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c-septenary);
+    background-color: rgba(139, 74, 74, 0)
+  }
+
+  .centered2 {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--c-septenary);
+    background-color: rgba(139, 74, 74, 0)
+  }
+
+  
+/*BOTTOMCARDRESERVE*/
+
+.bottomcard{
+  display:flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  float:right;
+  position: absolute;
+  right: 7%;
+  top: 120%;
+  margin-top: 0%;
+  font-family: var(--f-ux-primary);
+  border-radius: 10px 10px 10px 10px;
+  background-color:var(--c-quinary);
+  width: 40%;
+  height: 71%;
+
+}
+
+.bottomcard:hover{
+  box-shadow: 10px 10px 10px #888888;
+}
+
+.bottomimage{
+  margin-left: 50px;
+  object-fit: cover;
+  width: 50%;
+  height: 70vh;
+  border-radius: 0px 10px 10px 0px;
+
+}
+
+.reserveernu{
+  color: var(--c-senary);
+  font-size: 35px;
+  margin-left: 0px;
+  margin-right: 12%;
+}
+
+.buttons{
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  margin-left: 20px;
+}
+.buttons > div{
+  background-color: var(--c-senary);
+  color: var(--c-septenary);
+  width: 200px;
+  height:120px;
+  text-align: left;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+.buttons > div > h2{
+  background-color: var(--c-senary);
+  font-size: 25px;
+}
+
+.buttons > div > h3{
+  text-align: left;
+  padding: 2px 0px 0px 0px;
+  background-color: var(--c-senary);
+  font-size: 10px;
+}
+#activiteitenexcl{
+  padding: 20px 0px 0px 0px;
+}  
+
+/*CARD CONCEPT*/
+
+.conceptcard{
+  background-color:var(--c-ux-lightblue);
+  width: 40%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0px 50px 80px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.conceptcard:hover{
+  box-shadow: 10px 10px 10px #888888;
+}
+
+.conceptcardtext{
+  text-align: left;
+  font-family: var(--f-ux-primary);
+  color: var(--c-senary);
+  margin: 0px 0px 0px 20px;
+  padding: 0px;
+}
+
+#hetconcept{
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#hetconceptexplain{
+  margin-top: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0% 15% 0% 0%;
+}
+
+.conceptimage{
+  object-fit: cover;
+  width: 30%;
+  height: 30%;
+  border-radius: 5px 5px 5px 5px;
+}

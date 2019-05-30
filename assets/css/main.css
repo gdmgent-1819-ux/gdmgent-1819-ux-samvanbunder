@@ -1,9 +1,183 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
-
 @import url('variables.css');
-@import url('base.css');
+@import url('footer.css');
 
-@import url('components/flex-grid.css');
-@import url('components/buttons.css');
-@import url('components/forms.css');
+body{
+    padding: 0px;
+    margin: 0px;
+}
 
+/*HEADER*/
+
+*{
+    background-color:var(--c-quinary)
+}
+/*TITLE LEFT*/
+.header{
+    display: flex;
+}
+
+.headerleft{
+    margin: 0%;
+    padding: 0%;
+    height: 34vh;
+    width : 30vw;
+    background-color: var(--c-tertiary);
+}
+
+#adventurevalley{
+    margin: 60px 0px 0px 0px;
+    background-color: var(--c-tertiary);
+    color: var(--c-septenary);
+    font-family: var(--f-ux-primary);
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+#vakantiedomein{
+    margin: 0px 0px 0px 0px;
+    background-color: var(--c-tertiary);
+    color: var(--c-septenary);
+    font-family: var(--f-ux-primary);
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+#theplacetoescape{
+    margin: 22% 10px 0px 0px;
+    background-color: var(--c-tertiary);
+    color: var(--c-primary);
+    font-family: var(--f-ux-secondary);
+    font-size: 20px;
+    text-align: right;
+    font-weight: 100;
+}
+
+/*NAVIGATION*/
+
+.menu{
+    margin: 80px 0px 0px 00px;
+    padding: 0px 0px 0px 0px;
+    width: 70vw;
+    height: 10vh;
+    color: var(--c-primary);
+    font-family: var(--f-ux-primary);
+    font-size: 40px;
+    font-weight: bolder;
+    list-style: none;
+    justify-content: center;
+    border-bottom: 7px solid var(--c-primary);
+}
+
+.menu > li {
+    float: left;
+    padding: 0px 30px 0px 50px;
+}
+
+.menu > li:hover{
+    text-decoration-line: underline;
+
+}
+/*RESERVE DIRECT*/
+
+.planbezoek{
+    margin: 0% 15% 0% 0%;
+    padding: 0px;
+    font-family: var(--f-ux-primary);
+    color: var(--c-senary);
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#planuwbezoek{
+    margin: 25px 0px 3px 0px;
+    padding: 0px;
+}
+.planbezoekmenu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-weight: 900;
+}
+
+.planbezoekmenu > li {
+    float: left;
+    padding: 0px 30px 0px 50px;
+}
+/*ICONS*/
+.icons{
+    color: var(--c-senary);
+    margin: 1% 13% 0% 0%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+i{  
+    padding: 5px 120px 0px;
+}
+
+/*QUOTE*/
+.quote{
+    margin: 30px 100px 0px 0px;
+    width: 60vw;
+    float: right;
+    text-align: right;
+    font-family: var(--f-ux-primary);
+    color: var(--c-senary);
+    font-size: 33px;
+}
+
+/*AANBOD*/
+.offers{
+/*    margin: 14% 58% 0% 7%;*/
+    margin-top: 14%;
+    text-align: left;
+    font-family: var(--f-ux-primary);
+    color: var(--c-senary);
+    font-size: 18px;
+    position: relative;
+    left: 5%;
+
+
+}
+
+.listend{
+    list-style: none;
+    font-family: var(--f-ux-primary);
+    color: var(--c-senary);
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    left: 0%;
+    width: 30%;
+    
+
+}
+
+.listend > li{
+    margin: 20px 0px;
+}
+
+.checks {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--c-senary);
+    font-size: 25px;
+    position: absolute;
+    top: 122%;
+}
+
+.checks > i{
+    padding: 36px 0px 0px 95px;
+    bottom: 70%;
+}
+
+.button{
+    width: 10%;
+    height: 10%;
+}
