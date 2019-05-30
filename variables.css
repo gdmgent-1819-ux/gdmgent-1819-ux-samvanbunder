@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+
+:root{
+    /*colors, first color = assignment color*/
+    --c-ux-purple: hsla(272, 61%, 56%, 1);
+    --c-ux-lightpurple: hsla(271, 60%, 60%, 1);
+    --c-ux-lighterpurple: hsla(265, 53%, 75%, 1);
+    --c-ux-lightestpurple: hsla(261, 50%, 79%, 1);
+    --c-ux-lightblue: hsla(176, 40%, 92%, 1);
+    --c-ux-darkblue: hsla(207, 37%, 29%, 1);
+    --c-ux-white: hsla(0, 0%, 100%, 1);
+
+    /*fonts*/
+    --f-ux-primary: 'Roboto', sans-serif;
+    --f-ux-secondary: 'Lobster', cursive;
+    
+    /*color def vars*/
+    --c-primary: var(--c-ux-purple);
+    --c-secondary: var(--c-ux-lightpurple);
+    --c-tertiary: var(--c-ux-lighterpurple);
+    --c-quaternary: var(--c-ux-lightestpurple);
+    --c-quinary: var(--c-ux-lightblue);
+    --c-senary: var(--c-ux-darkblue);
+    --c-septenary: var(--c-ux-white);
+}
